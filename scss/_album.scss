@@ -1,0 +1,48 @@
+.albumInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+    padding-top: 4em;
+  }
+  .albumTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 0px;
+  }
+  .albumImg img {
+    display: flex;
+    margin-right: 5em;
+  }
+  .spotifyListBig {
+    display: flex;
+    justify-content: center;
+  }
+  .spotifyListSmall{
+    display: none;
+  }
+  @media (max-width: 768px){
+    .albumInfo {
+      display: flex;
+      flex-direction: column;
+      padding-top: 1em;
+    }
+    .spotifyListBig{
+      display: none;
+    }
+    .spotifyListSmall {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 1280px){
+      .albumImg{
+      img{
+        margin-top: 5rem;
+      }
+    }
+  }
+  

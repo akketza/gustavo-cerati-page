@@ -1,0 +1,34 @@
+.miTitulo {
+  color: $blanco;
+    font-size: 3rem;
+    & .miTexto {
+      font-size: 1.25rem;
+    }
+  }
+  h1{
+    text-align: center;
+    font-size: xx-large;
+    color: $blanco;
+  }
+  h2 {
+    text-align: center;
+    font-size: xx-large;
+    color: $blanco;
+  }
+  h3 {
+    font-size: x-large;
+    color: $blanco;
+    text-align: left;
+    font-style: italic;
+  }
+  .text {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-left: 10px;
+  }
+  a{
+    color: $blanco;
+  }
+ .textoModal{
+color: $negro;
+}

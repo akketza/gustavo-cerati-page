@@ -1,0 +1,83 @@
+@import "colores";
+@import "fuentes";
+@import "banner";
+@import "portadas";
+@import "album";
+@import "forum";
+@import "noticias";
+@import "galeria";
+@import "footer";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: $colorFondo;    
+  color: $blanco;
+  min-height: 100vh;
+} 
+main{
+  flex-grow: 1;
+}
+#header{
+  background-color: $negro;
+}
+.ultimoConcierto {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  padding-top: 70px;
+  @media (max-width: 768px) {
+    padding-top: 0px;
+  }
+  @media (max-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    .text{
+      margin-bottom: 0;
+    }  
+  }
+
+  & .infoConcierto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 0px;
+    @media (max-width: 1280px) {
+      padding-top: 0px;
+        .text{
+          margin-top: 10%;
+      }
+    }
+  }
+}
+
+
+#ceratiInicio {
+  size: 5vh;
+  @media (max-width: 768px) {
+    #ceratiInicio {
+      display: none;
+    }
+    .infoMain{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+  }
+  @media (min-width: 1280px) {
+    #ceratiInicio {
+      display: none;
+    }
+    .infoMain{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+  }
+}
+
+ 

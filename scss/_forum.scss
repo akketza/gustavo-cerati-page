@@ -1,0 +1,14 @@
+.formularioPadre{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  
+  button{
+    margin: 1rem;
+  }
+  textarea{
+    resize: none;
+  }
+} 

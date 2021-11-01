@@ -1,0 +1,205 @@
+body {
+  background-color: rgb(12, 12, 12) !important;
+  color: white !important;
+}
+.bg-negro {
+  background-color: #000 !important;
+}
+#banner {
+  background-image: url(../media/cerati_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+}
+.miTitulo {
+  font-size: 3rem;
+}
+.miTexto {
+  font-size: 1.25rem;
+}
+h1{
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+h3 {
+  font-size: x-large;
+  color: white;
+  text-align: left;
+  font-style: italic;
+}
+.ultimoConcierto {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  padding-top: 70px;
+}
+.infoConcierto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0px;
+}
+.text {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-left: 10px;
+  line-height: 4vh;
+}
+.infoMain {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.infoSubMain {
+  padding: 1vh;
+  margin: 1vh;
+}
+#ceratiInicio {
+  size: 5vh;
+}
+@media (max-width: 768px) {
+  #ceratiInicio {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+}
+.flex-center {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center h2 {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+#portadas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 5%;
+  grid-gap: 30px;
+}
+#portadas img {
+  width: 100%;
+  transition: all 300ms;
+  position: relative;
+  border-radius: 2vh;
+}
+#portadas img:hover {
+  transform: scale(1.15);
+  z-index: 1;
+}
+#portadas p {
+  width: 100%;
+  transition: all 300ms;
+  position: relative;
+}
+#portadas p:hover {
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  #portadas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  #portadas img {
+    width: 30vh;
+  }
+  #portadas a {
+    text-align: center;
+  }
+}
+.albumInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+}
+.albumTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0px;
+}
+.albumImg img {
+  display: flex;
+  margin-right: 5em;
+}
+.spotifyList {
+  display: flex;
+  justify-content: center;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+.formularioSize {
+  border-radius: 1vh;
+  padding: 10vh;
+  margin: 10vh;
+}
+.textoArea {
+  resize: none;
+}
+
+fieldset {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+fieldset div {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+fieldset div.textArea {
+  display: flex;
+  flex-direction: column;
+}
+.fondoContact {
+  background-image: url("../media/background_forum.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contenedorGaleria {
+  display: flex;
+  flex-direction: column;
+}
+.contenedorGaleria img {
+  width: 90vh;
+}
+.noticias {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+}
+.infoNoticias {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0px;
+}
